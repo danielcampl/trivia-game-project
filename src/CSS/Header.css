@@ -1,0 +1,29 @@
+header {
+  width: 40%;
+  background-color: #9186ad5d;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.score {
+  display: flex;
+  padding-left: 10px;
+  flex-direction: row;
+}
+
+#score {
+  padding-left: 10px;
+}
+
+#name {
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#name-p {
+  padding-left: 10px;
+}
