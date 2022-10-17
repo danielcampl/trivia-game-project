@@ -7,7 +7,7 @@ import { goToSettings, emailAction, nameAction } from '../redux/actions';
 import '../CSS/Login.css';
 import '../CSS/button.css';
 import '../CSS/input.css';
-import Animation from '../image/start.svg';
+import Quiz from '../image/cerebro.jpg';
 
 class Login extends React.Component {
   constructor() {
@@ -61,7 +61,7 @@ class Login extends React.Component {
       <div className="form-container">
         <div className="login-left-container">
           <h1>TRIVIA</h1>
-          <img src={ Animation } alt="start" id="animation" />
+          <img src={ Quiz } alt="start" id="quiz" />
         </div>
         <div className="login-form-container">
           <form className="login-right-container">
